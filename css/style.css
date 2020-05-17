@@ -1,0 +1,45 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+}
+.ul-header {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.logo{
+ width: 150px
+}
+    
+.hero-img{
+    height: 600px;
+    padding: 25px;
+   
+    outline: 1px red solid;
+}
+.content{
+    display: flex;
+    flex-direction: row; 
+}
+.my-face{
+    height: 400px;
+}
+.about-text{
+    width: 500px;
+    
+}
+.resume-button{
+    width: 75px;
+    height: 75px;
+}
+.content-info{
+    align-items: center;
+}
+footer{
+    background-color: #373738;
+}
