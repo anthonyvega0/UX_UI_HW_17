@@ -3,6 +3,7 @@
     flex-direction: row;
     text-align: center;
     justify-content: space-between;
+    width: 95%;
 }
 .ul-header {
     display: flex;
@@ -10,6 +11,8 @@
     width: 300px;
     justify-content: space-evenly;
     text-align: center;
+    font-size: 25px;
+    list-style: none;
 }
 
 .logo{
@@ -19,12 +22,10 @@
 .hero-img{
     height: 600px;
     padding: 25px;
-   
-    outline: 1px red solid;
 }
 .content{
     display: flex;
-    flex-direction: row; 
+    
 }
 .my-face{
     height: 400px;
@@ -38,8 +39,15 @@
     height: 75px;
 }
 .content-info{
-    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 footer{
     background-color: #373738;
+    padding: 25px;
+}
+.ul-footer{
+    list-style: none;
+    color: white
 }
